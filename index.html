@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Development Courses - Learn HTML, CSS, JavaScript with expert instructors">
+    <title>Web Development Courses | TechLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <h1>TechLearn</h1>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html" >Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with Background Image -->
+        <section class="courses-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Master Web Development</h1>
+                    <p class="hero-subtitle">Learn from industry experts with hands-on projects and real-world applications</p>
+                    <a href="#course-grid" class="btn btn-hero">Explore Courses <i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Statistics -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="stat-number">2,500+</div>
+                        <div class="stat-label">Students Enrolled</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Certificates Issued</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="stat-number">85%</div>
+                        <div class="stat-label">Career Advancement</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Introduction Video -->
+        <section class="intro-video">
+            <div class="container">
+                <div class="video-container">
+                    <div class="video-content">
+                        <h2>Watch Our Course Introduction</h2>
+                        <p>Get a glimpse of what you'll learn in our web development courses. Our expert instructors will guide you through the journey.</p>
+                        <div class="video-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Hands-on Projects</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Expert Instructors</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>24/7 Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-wrapper">
+                        <div class="video-player">
+                            <video controls poster="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80">
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-caption">
+                                <p><i class="fas fa-info-circle"></i> Introduction to Web Development - 5:32 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Courses Grid -->
+        <section class="courses-section" id="course-grid">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Professional Web Development Courses</h2>
+                    <p class="section-subtitle">Choose from our comprehensive curriculum designed for all skill levels</p>
+                    <div class="level-filter">
+                        <button class="level-btn active" data-level="all">All Levels</button>
+                        <button class="level-btn" data-level="beginner">Beginner</button>
+                        <button class="level-btn" data-level="intermediate">Intermediate</button>
+                        <button class="level-btn" data-level="advanced">Advanced</button>
+                    </div>
+                </div>
+                
+                <div class="course-grid">
+                    <!-- HTML5 Course -->
+                    <article class="course-card" data-level="beginner">
+                        <div class="course-badge beginner">Beginner</div>
+                        <div class="course-media">
+                            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="HTML5 code on screen with web browser" 
+                                 class="course-image">
+                            <div class="course-overlay">
+                                <a href="#" class="play-btn" aria-label="Play HTML preview">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3>HTML5 & Semantic Markup</h3>
+                            <p class="course-description">Master the foundation of web development with semantic HTML5, accessibility standards, and modern web structure.</p>
+                            
+                            <div class="course-meta">
+                                <div class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>6 Weeks</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>24 Videos</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-tasks"></i>
+                                    <span>8 Projects</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="topics-title">What You'll Learn:</h4>
+                            <ul class="course-topics">
+                                <li><i class="fas fa-check"></i> Semantic HTML5 Elements</li>
+                                <li><i class="fas fa-check"></i> Forms, Tables & Lists</li>
+                                <li><i class="fas fa-check"></i> Web Accessibility (A11y)</li>
+                                <li><i class="fas fa-check"></i> Media Integration</li>
+                                <li><i class="fas fa-check"></i> SEO Best Practices</li>
+                                <li><i class="fas fa-check"></i> Cross-browser Compatibility</li>
+                            </ul>
+                            
+                            <div class="course-audio">
+                                <h5><i class="fas fa-headphones"></i> Course Sample Audio:</h5>
+                                <audio controls>
+                                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                                <p class="audio-caption">Listen to a sample lesson on HTML semantics</p>
+                            </div>
+                            
+                            <div class="course-instructor">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" 
+                                     alt="Instructor Sarah Chen" 
+                                     class="instructor-avatar">
+                                <div class="instructor-info">
+                                    <h5>Sarah Chen</h5>
+                                    <p class="instructor-title">Senior Frontend Developer</p>
+                                    <div class="instructor-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span>4.8 (1,234 reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="current-price">$149</span>
+                                    <span class="original-price">$199</span>
+                                    <span class="discount">25% off</span>
+                                </div>
+                                <button class="btn enroll-btn" data-course="HTML5">
+                                    <i class="fas fa-shopping-cart"></i> Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- CSS Course -->
+                    <article class="course-card" data-level="intermediate">
+                        <div class="course-badge intermediate">Intermediate</div>
+                        <div class="course-media">
+                            <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="CSS code with colorful design elements" 
+                                 class="course-image">
+                            <div class="course-overlay">
+                                <a href="#" class="play-btn" aria-label="Play CSS preview">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h3>CSS & Responsive Design</h3>
+                            <p class="course-description">Create stunning, responsive websites with modern CSS techniques including Grid, Flexbox, and animations.</p>
+                            
+                            <div class="course-meta">
+                                <div class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>8 Weeks</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>32 Videos</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-tasks"></i>
+                                    <span>12 Projects</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="topics-title">What You'll Learn:</h4>
+                            <ul class="course-topics">
+                                <li><i class="fas fa-check"></i> CSS Grid & Flexbox</li>
+                                <li><i class="fas fa-check"></i> Responsive Design Patterns</li>
+                                <li><i class="fas fa-check"></i> CSS Variables & Custom Properties</li>
+                                <li><i class="fas fa-check"></i> Animations & Transitions</li>
+                                <li><i class="fas fa-check"></i> Modern Layout Techniques</li>
+                                <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            </ul>
+                            
+                            <div class="course-audio">
+                                <h5><i class="fas fa-headphones"></i> Course Sample Audio:</h5>
+                                <audio controls>
+                                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                                <p class="audio-caption">Listen to CSS Grid layout techniques</p>
+                            </div>
+                            
+                            <div class="course-instructor">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" 
+                                     alt="Instructor Michael Rodriguez" 
+                                     class="instructor-avatar">
+                                <div class="instructor-info">
+                                    <h5>Michael Rodriguez</h5>
+                                    <p class="instructor-title">UI/UX Design Lead</p>
+                                    <div class="instructor-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0 (892 reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="current-price">$199</span>
+                                    <span class="original-price">$249</span>
+                                    <span class="discount">20% off</span>
+                                </div>
+                                <button class="btn enroll-btn" data-course="CSS">
+                                    <i class="fas fa-shopping-cart"></i> Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- JavaScript Course -->
+                    <article class="course-card" data-level="intermediate">
+                        <div class="course-badge intermediate">Intermediate</div>
+                        <div class="course-media">
+                            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="JavaScript code with interactive elements" 
+                                 class="course-image">
+                            <div class="course-overlay">
+                                <a href="#" class="play-btn" aria-label="Play JavaScript preview">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h3>JavaScript Fundamentals</h3>
+                            <p class="course-description">Add interactivity to websites with JavaScript. Master DOM manipulation, events, APIs, and modern ES6+ features.</p>
+                            
+                            <div class="course-meta">
+                                <div class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>10 Weeks</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>40 Videos</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-tasks"></i>
+                                    <span>15 Projects</span>
+                                </div>
+                            </div>
+                            
+                            <h4 class="topics-title">What You'll Learn:</h4>
+                            <ul class="course-topics">
+                                <li><i class="fas fa-check"></i> DOM Manipulation</li>
+                                <li><i class="fas fa-check"></i> Event Handling & Callbacks</li>
+                                <li><i class="fas fa-check"></i> Async Programming & APIs</li>
+                                <li><i class="fas fa-check"></i> ES6+ Modern Features</li>
+                                <li><i class="fas fa-check"></i> Form Validation</li>
+                                <li><i class="fas fa-check"></i> Debugging Techniques</li>
+                            </ul>
+                            
+                            <div class="course-audio">
+                                <h5><i class="fas fa-headphones"></i> Course Sample Audio:</h5>
+                                <audio controls>
+                                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                                <p class="audio-caption">Listen to JavaScript DOM manipulation techniques</p>
+                            </div>
+                            
+                            <div class="course-instructor">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" 
+                                     alt="Instructor David Kim" 
+                                     class="instructor-avatar">
+                                <div class="instructor-info">
+                                    <h5>David Kim</h5>
+                                    <p class="instructor-title">Full Stack Developer</p>
+                                    <div class="instructor-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <span>4.7 (1,567 reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="course-footer">
+                                <div class="course-price">
+                                    <span class="current-price">$249</span>
+                                    <span class="original-price">$299</span>
+                                    <span class="discount">17% off</span>
+                                </div>
+                                <button class="btn enroll-btn" data-course="JavaScript">
+                                    <i class="fas fa-shopping-cart"></i> Enroll Now
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Bundle Offer -->
+                <div class="bundle-section">
+                    <div class="bundle-card">
+                        <div class="bundle-badge">Best Value</div>
+                        <div class="bundle-content">
+                            <div class="bundle-text">
+                                <h3>Full Stack Developer Bundle</h3>
+                                <p>Get all three courses plus bonus content at a special discounted price. Save $150!</p>
+                                <ul class="bundle-features">
+                                    <li><i class="fas fa-check"></i> All 3 courses with lifetime access</li>
+                                    <li><i class="fas fa-check"></i> 15+ bonus projects & exercises</li>
+                                    <li><i class="fas fa-check"></i> Certificate of completion for each course</li>
+                                    <li><i class="fas fa-check"></i> Priority support & career guidance</li>
+                                </ul>
+                            </div>
+                            <div class="bundle-price">
+                                <div class="price-comparison">
+                                    <div class="individual-price">Individual: $597</div>
+                                    <div class="bundle-total">
+                                        <span class="bundle-save">Save $150</span>
+                                        <span class="bundle-amount">$447</span>
+                                    </div>
+                                </div>
+                                <button class="btn bundle-btn">
+                                    <i class="fas fa-gem"></i> Get the Bundle
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Success Stories -->
+        <section class="success-stories">
+            <div class="container">
+                <h2>Student Success Stories</h2>
+                <p class="section-subtitle">Hear from our graduates who transformed their careers</p>
+                
+                <div class="stories-grid">
+                    <div class="story-card">
+                        <div class="story-video">
+                            <video controls poster="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80">
+                                <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="story-content">
+                            <h4>From Teacher to Web Developer</h4>
+                            <p>"After completing the HTML and CSS courses, I built my portfolio and landed a junior developer position in just 3 months!"</p>
+                            <div class="story-author">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Alex Morgan">
+                                <div>
+                                    <h5>Alex Morgan</h5>
+                                    <p>Junior Developer at TechCorp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="story-card">
+                        <div class="story-audio">
+                            <div class="audio-header">
+                                <i class="fas fa-microphone"></i>
+                                <h4>Career Change Success</h4>
+                            </div>
+                            <audio controls>
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p class="audio-transcript">"I was working in retail when I discovered TechLearn. The structured curriculum gave me the confidence to pursue web development full-time."</p>
+                            <div class="story-author">
+                                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Jamie Lee">
+                                <div>
+                                    <h5>Jamie Lee</h5>
+                                    <p>Freelance Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Download Section -->
+        <section class="resources-section">
+            <div class="container">
+                <h2>Free Learning Resources</h2>
+                <p class="section-subtitle">Download our comprehensive guides and start learning today</p>
+                
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4>HTML5 Cheat Sheet</h4>
+                        <p>Complete reference guide for HTML5 tags, attributes, and best practices.</p>
+                        <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank" class="btn-outline resource-btn">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4>CSS Properties Guide</h4>
+                        <p>Comprehensive guide to CSS properties, values, and browser support.</p>
+                        <a href="https://www.w3schools.com/cssref/" target="_blank" class="btn-outline resource-btn">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h4>JavaScript Quick Start</h4>
+                        <p>Essential JavaScript concepts, syntax, and common patterns.</p>
+                        <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank" class="btn-outline resource-btn">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechLearn</h4>
+                    <p>Master web development with our comprehensive courses. From HTML basics to advanced JavaScript.</p>
+                    <div class="footer-audio">
+                        <h5>Listen to Our Podcast:</h5>
+                        <audio controls>
+                            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Stay Updated</h5>
+                        <p>Subscribe for web development tips and course updates</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechLearn. All rights reserved. | BITM203 Course Project</p>
+                <p class="footer-note">This website was created as part of the BITM203 Web Development course project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enrollment Modal -->
+    <div id="enrollmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3 id="modalCourseTitle">Enroll in Course</h3>
+            </div>
+            <div class="modal-body">
+                <div class="modal-preview">
+                    <img id="modalCourseImage" src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Course Preview">
+                    <div class="preview-info">
+                        <h4 id="modalCourseName">HTML5 & Semantic Markup</h4>
+                        <div class="preview-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.8 (1,234 reviews)</span>
+                        </div>
+                        <div class="preview-price">
+                            <span class="modal-current-price">$149</span>
+                            <span class="modal-original-price">$199</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="enrollmentForm" class="modal-form">
+                    <div class="form-group">
+                        <label for="enrollName">Full Name *</label>
+                        <input type="text" id="enrollName" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="enrollEmail">Email Address *</label>
+                        <input type="email" id="enrollEmail" required placeholder="Enter your email address">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="paymentMethod">Payment Method</label>
+                        <select id="paymentMethod">
+                            <option value="credit">Credit/Debit Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="bank">Bank Transfer</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletterOpt" checked>
+                            <span>Subscribe to course updates and tips</span>
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="terms" required>
+                            <span>I agree to the <a href="#">Terms & Conditions</a></span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-modal">
+                        <i class="fas fa-lock"></i> Complete Enrollment - $149
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

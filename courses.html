@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Development Courses - HTML, CSS, JavaScript">
+    <title>Courses | TechLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <h1>TechLearn</h1>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Courses Hero Section -->
+        <section class="courses-hero">
+            <div class="container">
+                <h2>Web Development Courses</h2>
+                <p>Master the skills to build modern, responsive websites. Choose from our comprehensive course offerings.</p>
+            </div>
+        </section>
+
+        <!-- Course Filter -->
+        <section class="course-filter">
+            <div class="container">
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Courses</button>
+                    <button class="filter-btn" data-filter="beginner">Beginner</button>
+                    <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                    <button class="filter-btn" data-filter="advanced">Advanced</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Grid -->
+        <section class="courses-section">
+            <div class="container">
+                <div class="course-grid">
+                    <!-- HTML5 Course -->
+                    <article class="course-card" data-level="beginner">
+                        <div class="course-badge">Most Popular</div>
+                        <div class="course-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5 Fundamentals</h3>
+                        <p class="course-description">Learn to structure web pages with proper semantic HTML5 elements, forms, tables, and accessibility features.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>4 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Beginner</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.8/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> Semantic HTML5 Elements</li>
+                            <li><i class="fas fa-check"></i> Forms and Input Types</li>
+                            <li><i class="fas fa-check"></i> Tables and Lists</li>
+                            <li><i class="fas fa-check"></i> Media Elements (Images, Audio, Video)</li>
+                            <li><i class="fas fa-check"></i> Accessibility Best Practices</li>
+                            <li><i class="fas fa-check"></i> HTML Validation</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>Dr. Sarah Chen</h5>
+                                <p>Senior Web Instructor</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$149</span>
+                                <span class="original-price">$199</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="HTML5 Fundamentals">Enroll Now</button>
+                        </div>
+                    </article>
+                    
+                    <!-- CSS Course -->
+                    <article class="course-card" data-level="intermediate">
+                        <div class="course-badge">New</div>
+                        <div class="course-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS & Responsive Design</h3>
+                        <p class="course-description">Master CSS styling, modern layout techniques, and create responsive websites that work on all devices.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>6 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.9/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> CSS Grid and Flexbox</li>
+                            <li><i class="fas fa-check"></i> Responsive Design with Media Queries</li>
+                            <li><i class="fas fa-check"></i> CSS Variables and Custom Properties</li>
+                            <li><i class="fas fa-check"></i> Transitions and Animations</li>
+                            <li><i class="fas fa-check"></i> Typography and Color Theory</li>
+                            <li><i class="fas fa-check"></i> Cross-browser Compatibility</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>Michael Rodriguez</h5>
+                                <p>CSS Expert</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$199</span>
+                                <span class="original-price">$249</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="CSS & Responsive Design">Enroll Now</button>
+                        </div>
+                    </article>
+                    
+                    <!-- JavaScript Course -->
+                    <article class="course-card" data-level="intermediate">
+                        <div class="course-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript Fundamentals</h3>
+                        <p class="course-description">Add interactivity to websites with JavaScript. Learn DOM manipulation, events, and form validation.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>8 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.7/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> JavaScript Syntax and Basics</li>
+                            <li><i class="fas fa-check"></i> DOM Manipulation</li>
+                            <li><i class="fas fa-check"></i> Event Handling</li>
+                            <li><i class="fas fa-check"></i> Form Validation</li>
+                            <li><i class="fas fa-check"></i> Working with APIs</li>
+                            <li><i class="fas fa-check"></i> Debugging and Error Handling</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>David Kim</h5>
+                                <p>JavaScript Developer</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$249</span>
+                                <span class="original-price">$299</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="JavaScript Fundamentals">Enroll Now</button>
+                        </div>
+                    </article>
+                    
+                    <!-- Full Stack Course -->
+                    <article class="course-card" data-level="advanced">
+                        <div class="course-badge">Bundle</div>
+                        <div class="course-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>Full Stack Web Development</h3>
+                        <p class="course-description">Complete package covering front-end and back-end development. Build full-featured web applications.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>12 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.9/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> Advanced JavaScript (ES6+)</li>
+                            <li><i class="fas fa-check"></i> React.js Framework</li>
+                            <li><i class="fas fa-check"></i> Node.js and Express</li>
+                            <li><i class="fas fa-check"></i> Database Integration (MongoDB)</li>
+                            <li><i class="fas fa-check"></i> REST API Development</li>
+                            <li><i class="fas fa-check"></i> Deployment and DevOps Basics</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>Alex Johnson</h5>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$499</span>
+                                <span class="original-price">$699</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="Full Stack Web Development">Enroll Now</button>
+                        </div>
+                    </article>
+                    
+                    <!-- WordPress Course -->
+                    <article class="course-card" data-level="beginner">
+                        <div class="course-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress Development</h3>
+                        <p class="course-description">Learn to build and customize WordPress websites, themes, and plugins from scratch.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>5 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Beginner</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.6/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> WordPress Installation & Setup</li>
+                            <li><i class="fas fa-check"></i> Theme Development</li>
+                            <li><i class="fas fa-check"></i> Plugin Creation</li>
+                            <li><i class="fas fa-check"></i> Custom Post Types & Taxonomies</li>
+                            <li><i class="fas fa-check"></i> WordPress Security</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>Lisa Wang</h5>
+                                <p>WordPress Specialist</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$179</span>
+                                <span class="original-price">$229</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="WordPress Development">Enroll Now</button>
+                        </div>
+                    </article>
+                    
+                    <!-- UI/UX Design Course -->
+                    <article class="course-card" data-level="intermediate">
+                        <div class="course-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design for Web</h3>
+                        <p class="course-description">Learn user-centered design principles and create beautiful, intuitive web interfaces.</p>
+                        
+                        <div class="course-details">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>6 Weeks</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-signal"></i>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.8/5 Rating</span>
+                            </div>
+                        </div>
+                        
+                        <h4>What You'll Learn:</h4>
+                        <ul class="course-topics">
+                            <li><i class="fas fa-check"></i> User Research & Personas</li>
+                            <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                            <li><i class="fas fa-check"></i> Design Systems</li>
+                            <li><i class="fas fa-check"></i> Interaction Design</li>
+                            <li><i class="fas fa-check"></i> Usability Testing</li>
+                            <li><i class="fas fa-check"></i> Figma & Adobe XD</li>
+                        </ul>
+                        
+                        <div class="course-instructor">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Instructor">
+                            <div>
+                                <h5>Emma Davis</h5>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                        
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price">$219</span>
+                                <span class="original-price">$279</span>
+                            </div>
+                            <button class="btn enroll-btn" data-course="UI/UX Design for Web">Enroll Now</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Comparison Table -->
+        <section class="comparison-section">
+            <div class="container">
+                <h2>Course Comparison</h2>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>HTML5 Fundamentals</th>
+                            <th>CSS & Responsive Design</th>
+                            <th>JavaScript Fundamentals</th>
+                            <th>Full Stack Development</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Duration</td>
+                            <td>4 Weeks</td>
+                            <td>6 Weeks</td>
+                            <td>8 Weeks</td>
+                            <td>12 Weeks</td>
+                        </tr>
+                        <tr>
+                            <td>Level</td>
+                            <td>Beginner</td>
+                            <td>Intermediate</td>
+                            <td>Intermediate</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Projects</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Certificate</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Instructor Support</td>
+                            <td>Email</td>
+                            <td>Email + Weekly Q&A</td>
+                            <td>Email + Weekly Q&A</td>
+                            <td>Dedicated Mentor</td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td>$149</td>
+                            <td>$199</td>
+                            <td>$249</td>
+                            <td>$499</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Web Development Journey?</h2>
+                    <p>Join thousands of students who have transformed their careers with our courses.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-large">Get Started Today</a>
+                        <button id="courseCatalogBtn" class="btn-outline btn-large">Download Course Catalog</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechLearn</h4>
+                    <p>Master web development with our comprehensive courses. From HTML basics to advanced JavaScript.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechLearn. All rights reserved. | BITM203 Course Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enrollment Modal -->
+    <div id="enrollmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalCourseTitle">Enroll in Course</h3>
+            <div class="modal-body">
+                <p>Thank you for your interest in <span id="selectedCourse"></span>!</p>
+                <p>Please complete the enrollment form below:</p>
+                
+                <form id="enrollmentForm">
+                    <div class="form-group">
+                        <label for="enrollName">Full Name *</label>
+                        <input type="text" id="enrollName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="enrollEmail">Email Address *</label>
+                        <input type="email" id="enrollEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="enrollPhone">Phone Number</label>
+                        <input type="tel" id="enrollPhone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="paymentMethod">Payment Method</label>
+                        <select id="paymentMethod">
+                            <option value="credit">Credit Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="bank">Bank Transfer</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="terms" required>
+                            <span>I agree to the Terms and Conditions</span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn">Complete Enrollment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
